@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edwin Shajan — Penetration Tester | Offensive Security</title>
+  <meta name="description" content="Edwin Shajan — Penetration Tester at BCG. Offensive security professional, NCIIPC Top 15 Security Researcher (India, Q1 2025), U.S. DHS & Treasury VDP Hall of Fame, 3x CVE author, 300+ vulnerabilities reported." />
+  <meta name="author" content="Edwin Shajan" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Edwin Shajan — Penetration Tester | Offensive Security" />
+  <meta property="og:description" content="Offensive security professional. NCIIPC Top 15 Security Researcher (India, Q1 2025). 3x CVE author. 300+ vulnerabilities reported." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script>try{if(localStorage.getItem('es-theme')==='light')document.documentElement.setAttribute('data-theme','light');}catch(e){}</script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90' fill='%23ff2d4f'&gt;%E2%9A%A1&lt;/text&gt;&lt;/svg&gt;" />
+</head>
+<body>
+  <!-- Custom cursor -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Background layers -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <div class="bg-scanline" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <a href="#home" class="nav-logo" data-cursor>
+      <span class="logo-bracket">[</span>ES<span class="logo-bracket">]</span><span class="logo-blink">_</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" data-cursor>about</a>
+      <a href="#stats" data-cursor>impact</a>
+      <a href="#experience" data-cursor>experience</a>
+      <a href="#achievements" data-cursor>achievements</a>
+      <a href="#skills" data-cursor>skills</a>
+      <a href="#" id="termLaunch" class="nav-term" data-cursor>&gt;_ terminal</a>
+      <a href="#contact" class="nav-cta" data-cursor>contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" data-cursor aria-label="Toggle light / dark mode" title="Toggle light / dark">
+        <span class="tt-icon tt-dark">☾</span><span class="tt-icon tt-light">☀</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" data-cursor>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <p class="hero-eyebrow"><span class="prompt">$</span> whoami</p>
+        <h1 class="hero-name">Edwin Shajan</h1>
+        <h2 class="hero-role">
+          <span class="role-static">&gt;&nbsp;</span><span class="role-rotate" id="roleRotate">Penetration Tester</span><span class="role-caret">▋</span>
+        </h2>
+        <p class="hero-desc">
+          Offensive security professional at <strong>BCG</strong>. I break into systems before the bad
+          guys do — <strong>300+ vulnerabilities</strong> reported, <strong>3 CVEs</strong> to my name, and
+          <a href="https://nciipc.gov.in/documents/NCIIPC_Newsletter_Apr25.pdf" target="_blank" rel="noopener" class="inline-link"><strong>NCIIPC Top 15 Security Researcher</strong></a> in India (Q1 2025).
+        </p>
+        <div class="hero-cta">
+          <a href="#achievements" class="btn btn-primary" data-cursor>View Achievements</a>
+          <a href="#contact" class="btn btn-ghost" data-cursor>Get in touch</a>
+        </div>
+        <div class="hero-meta">
+          <span class="dot-pulse"></span> Available for offensive security work
+        </div>
+      </div>
+
+      <!-- Faux terminal -->
+      <div class="terminal-card" data-cursor>
+        <div class="terminal-bar">
+          <span class="tb-dot red"></span><span class="tb-dot amber"></span><span class="tb-dot green"></span>
+          <span class="tb-title">edwin@bcg: ~/recon</span>
+        </div>
+        <div class="terminal-body" id="termBody"></div>
+        <button class="term-enter" id="heroTermLaunch" data-cursor>▸ enter the live shell</button>
+      </div>
+
+      <a href="#about" class="scroll-hint" data-cursor>scroll <span>↓</span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-head reveal">
+        <span class="section-index">01</span>
+        <h2 class="section-title">About</h2>
+        <span class="section-line"></span>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a <strong>Penetration Tester</strong> and offensive security specialist who genuinely
+            enjoys finding the cracks others miss. I currently run web &amp; API penetration testing and
+            DAST assessments at <strong>Boston Consulting Group</strong>, owning the full testing
+            lifecycle — scoping, testing, reporting, and retesting.
+          </p>
+          <p>
+            Before BCG, I reported <strong>200+ vulnerabilities</strong> to India's national infrastructure
+            through <strong>NCIIPC</strong>, helped secure ~<strong>180 organizations</strong> in three
+            months, and earned recognition among the <a href="https://nciipc.gov.in/documents/NCIIPC_Newsletter_Apr25.pdf" target="_blank" rel="noopener" class="inline-link"><strong>Top 15 Security Researchers</strong></a> in the
+            country. I was also awarded <strong>three CVE IDs</strong> for my findings.
+          </p>
+          <p>
+            BCA graduate from <strong>Christ University, Bangalore</strong>. Currently pursuing my
+            <strong>Certified Penetration Tester (CPT)</strong>. Driven by curiosity, responsible
+            disclosure, and the thrill of a clean exploit chain.
+          </p>
+        </div>
+        <aside class="about-card reveal">
+          <h3>Quick Facts</h3>
+          <ul class="fact-list">
+            <li><span>Role</span><strong>Penetration Tester @ BCG</strong></li>
+            <li><span>Focus</span><strong>Offensive Security</strong></li>
+            <li><span>Location</span><strong>Thrissur, Kerala 🇮🇳</strong></li>
+            <li><span>Education</span><strong>BCA — Christ University</strong></li>
+            <li><span>Cert</span><strong>CPT (in progress)</strong></li>
+          </ul>
+          <div class="lang-row">
+            <span class="lang-tag">English</span>
+            <span class="lang-tag">Hindi</span>
+            <span class="lang-tag">Malayalam</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="section stats-section" id="stats">
+      <div class="stats-grid">
+        <div class="stat reveal" data-cursor>
+          <div class="stat-num" data-count="300" data-suffix="+">0</div>
+          <div class="stat-label">Vulnerabilities Reported</div>
+        </div>
+        <div class="stat reveal" data-cursor>
+          <div class="stat-num" data-count="180" data-suffix="+">0</div>
+          <div class="stat-label">Organizations Secured</div>
+        </div>
+        <div class="stat reveal" data-cursor>
+          <div class="stat-num" data-count="3" data-suffix="">0</div>
+          <div class="stat-label">CVEs Assigned</div>
+        </div>
+        <div class="stat reveal" data-cursor>
+          <div class="stat-num" data-count="15" data-prefix="Top ">0</div>
+          <div class="stat-label">Security Researcher in India</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="section-head reveal">
+        <span class="section-index">02</span>
+        <h2 class="section-title">Experience</h2>
+        <span class="section-line"></span>
+      </div>
+      <div class="timeline">
+        <article class="tl-item reveal" data-cursor>
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <div class="tl-top">
+              <h3>Penetration Tester</h3>
+              <span class="tl-date">Aug 2025 — Present</span>
+            </div>
+            <p class="tl-org">Boston Consulting Group (BCG)</p>
+            <ul>
+              <li>Performed Web &amp; API penetration testing and DAST assessments.</li>
+              <li>Managed the end-to-end security testing lifecycle: scoping, testing, reporting and retesting.</li>
+              <li>Partnered with developers to remediate vulnerabilities and validate fixes.</li>
+              <li>Tracked SLA breaches and improved compliance for mandatory security assessments.</li>
+              <li>Mentored junior team members and ensured the quality of security deliverables.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal" data-cursor>
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <div class="tl-top">
+              <h3>Penetration Tester</h3>
+              <span class="tl-date">Jul 2025 — Aug 2025</span>
+            </div>
+            <p class="tl-org">KSmart — Local Self Government, Kerala</p>
+            <ul>
+              <li>Performed a full black-box penetration test of KSmart's website.</li>
+              <li>Discovered and reported multiple severe issues that strengthened their security posture.</li>
+              <li>Earned the paid engagement by responsibly disclosing initial findings and demonstrating ethical hacking skills.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal" data-cursor>
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <div class="tl-top">
+              <h3>Security Researcher</h3>
+              <span class="tl-date">Oct 2024 — Mar 2025</span>
+            </div>
+            <p class="tl-org">NCIIPC — National Critical Information Infrastructure Protection Centre</p>
+            <ul>
+              <li>Identified and ethically reported <strong>200+ security vulnerabilities</strong> across Indian websites.</li>
+              <li>Recognized among the <a href="https://nciipc.gov.in/documents/NCIIPC_Newsletter_Apr25.pdf" target="_blank" rel="noopener" class="inline-link"><strong>Top 15 Security Researchers in India</strong></a> for Q1 2025.</li>
+              <li>Helped organizations strengthen security through responsible disclosure &amp; collaboration.</li>
+              <li>Performed independent vulnerability assessments using ethical hacking methodologies.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section" id="achievements">
+      <div class="section-head reveal">
+        <span class="section-index">03</span>
+        <h2 class="section-title">Achievements &amp; Recognition</h2>
+        <span class="section-line"></span>
+      </div>
+
+      <!-- CVE highlight -->
+      <div class="cve-banner reveal" data-cursor>
+        <div class="cve-icon">⚡</div>
+        <div class="cve-text">
+          <h3>Published CVE Author</h3>
+          <p>Three vulnerabilities assigned official CVE identifiers.</p>
+        </div>
+        <div class="cve-ids">
+          <span class="cve-id">CVE-2025-25381</span>
+          <span class="cve-id">CVE-2025-25382</span>
+          <span class="cve-id">CVE-2025-45777</span>
+        </div>
+      </div>
+
+      <!-- U.S. Government Hall of Fame -->
+      <div class="cve-banner reveal" data-cursor>
+        <div class="cve-icon">🏛️</div>
+        <div class="cve-text">
+          <h3>U.S. Government Hall of Fame</h3>
+          <p>Acknowledged in U.S. federal Vulnerability Disclosure Programs (via Bugcrowd) as <strong>edshaj</strong>.</p>
+        </div>
+        <div class="cve-ids">
+          <span class="cve-id">Dept. of Homeland Security</span>
+          <span class="cve-id">Dept. of the Treasury</span>
+        </div>
+      </div>
+
+      <div class="ach-grid">
+        <article class="ach-card reveal" data-cursor>
+          <span class="ach-tag">National Defense</span>
+          <h3>Repelled DXPLOIT Attack</h3>
+          <p>Helped secure a Kerala Government village website that was under attack by the Malaysian hacker group DXPLOIT.</p>
+        </article>
+        <article class="ach-card reveal" data-cursor>
+          <span class="ach-tag">CTF · 1st Place</span>
+          <h3>Xploit CTF — Xactitude 2025</h3>
+          <p>First Prize at the flagship national IT fest, Department of Computer Science, Kristu Jayanti College (Autonomous).</p>
+        </article>
+        <article class="ach-card reveal" data-cursor>
+          <span class="ach-tag">CTF · 1st Place</span>
+          <h3>Sankalpa Fest CTF</h3>
+          <p>First Prize for Capture-The-Flag at Sankalpa Fest, Jain (Deemed-to-be University).</p>
+        </article>
+        <a class="ach-card reveal" data-cursor href="https://nciipc.gov.in/documents/NCIIPC_Newsletter_Apr25.pdf" target="_blank" rel="noopener">
+          <span class="ach-tag">Recognition ↗</span>
+          <h3>NCIIPC Top 15 — Q1 2025</h3>
+          <p>Featured in the NCIIPC newsletter as one of the Top 15 Security Researchers in India through the RVDP program.</p>
+        </a>
+        <article class="ach-card reveal" data-cursor>
+          <span class="ach-tag">Acknowledgements</span>
+          <h3>NCIIPC &amp; CERT-In</h3>
+          <p>Official acknowledgements from NCIIPC and the Indian Computer Emergency Response Team (CERT-In).</p>
+        </article>
+        <article class="ach-card reveal" data-cursor>
+          <span class="ach-tag">Scale</span>
+          <h3>180+ Organizations Secured</h3>
+          <p>Helped secure around 180 companies and websites within a three-month period through responsible disclosure.</p>
+        </article>
+      </div>
+
+      <!-- Press & Media -->
+      <div class="press reveal">
+        <p class="orgs-label"><span class="prompt">$</span> ./press --featured-in</p>
+        <div class="ach-grid">
+          <a class="ach-card press-card reveal" data-cursor href="https://www.theweek.in/news/india/2025/01/02/exclusive-ethical-hacker-exposes-a-major-property-tax-loophole-in-kerala-government-website.html" target="_blank" rel="noopener">
+            <span class="ach-tag">The Week ↗</span>
+            <h3>Property-tax loophole, Kerala Govt</h3>
+            <p>“Ethical hacker exposes a major property-tax loophole in Kerala Government website.” — Jan 2025</p>
+          </a>
+          <a class="ach-card press-card reveal" data-cursor href="https://www.theweek.in/news/india/2025/06/12/exclusive-ksrtc-website-vulnerability-exposes-personal-data-of-over-4-lakh-students.html" target="_blank" rel="noopener">
+            <span class="ach-tag">The Week ↗</span>
+            <h3>KSRTC data exposure</h3>
+            <p>“KSRTC website vulnerability exposes personal data of over 4 lakh students.” — Jun 2025</p>
+          </a>
+          <a class="ach-card press-card reveal" data-cursor href="https://www.newsmalayalam.com/article/newsroom/delhis-rajiv-gandhi-cancer-institutes-patient-data-up-for-sale-in-dark-web" target="_blank" rel="noopener">
+            <span class="ach-tag">News Malayalam ↗</span>
+            <h3>Rajiv Gandhi Cancer Institute</h3>
+            <p>Coverage of the Delhi RGCI patient-data dark-web exposure investigation.</p>
+          </a>
+          <a class="ach-card press-card reveal" data-cursor href="https://www.youtube.com/watch?v=8PDLopynqaU" target="_blank" rel="noopener">
+            <span class="ach-tag">YouTube ↗</span>
+            <h3>Video Feature</h3>
+            <p>Media coverage featuring my security research and ethical hacking work.</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="orgs reveal">
+        <p class="orgs-label"><span class="prompt">$</span> ./secured --list — notable organizations helped</p>
+        <div class="orgs-row">
+          <span class="org-chip" data-cursor>KSRTC (Kerala)</span>
+          <span class="org-chip" data-cursor>KSRTC (Karnataka)</span>
+          <span class="org-chip" data-cursor>BESCOM</span>
+          <span class="org-chip" data-cursor>KSEB</span>
+          <span class="org-chip" data-cursor>Asianet Satellite</span>
+          <span class="org-chip" data-cursor>Bisleri</span>
+          <span class="org-chip" data-cursor>Royal Enfield</span>
+          <span class="org-chip" data-cursor>Parivahan</span>
+          <span class="org-chip" data-cursor>Maharashtra SFDA</span>
+          <span class="org-chip" data-cursor>Jubilee Mission Hospital</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS / TOOLS / PROJECTS / CERTS -->
+    <section class="section" id="skills">
+      <div class="section-head reveal">
+        <span class="section-index">04</span>
+        <h2 class="section-title">Skills, Arsenal &amp; Projects</h2>
+        <span class="section-line"></span>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skills-col">
+          <h3 class="skills-cat reveal">Security</h3>
+          <div class="tag-cloud reveal">
+            <span class="tag" data-cursor>Penetration Testing</span>
+            <span class="tag" data-cursor>Vulnerability Assessment</span>
+            <span class="tag" data-cursor>Android Security</span>
+            <span class="tag" data-cursor>OWASP Mobile Top 10</span>
+            <span class="tag" data-cursor>LLM Security Automation</span>
+            <span class="tag" data-cursor>Security Research</span>
+            <span class="tag" data-cursor>Networking</span>
+            <span class="tag" data-cursor>Incident Analysis</span>
+            <span class="tag" data-cursor>Triage</span>
+            <span class="tag" data-cursor>VRP / Bug Bounty</span>
+          </div>
+
+          <h3 class="skills-cat reveal">Web &amp; API</h3>
+          <div class="tag-cloud reveal">
+            <span class="tag mono" data-cursor>Burp Suite</span>
+            <span class="tag mono" data-cursor>SQLMap</span>
+            <span class="tag mono" data-cursor>Nuclei</span>
+            <span class="tag mono" data-cursor>FFUF</span>
+            <span class="tag mono" data-cursor>Postman</span>
+            <span class="tag mono" data-cursor>jwt_tool</span>
+          </div>
+
+          <h3 class="skills-cat reveal">Recon, OSINT &amp; Scanning</h3>
+          <div class="tag-cloud reveal">
+            <span class="tag mono" data-cursor>subfinder</span>
+            <span class="tag mono" data-cursor>httpx</span>
+            <span class="tag mono" data-cursor>Shodan</span>
+            <span class="tag mono" data-cursor>Nmap</span>
+            <span class="tag mono" data-cursor>Acunetix</span>
+          </div>
+
+          <h3 class="skills-cat reveal">Mobile Security</h3>
+          <div class="tag-cloud reveal">
+            <span class="tag mono" data-cursor>MobSF</span>
+            <span class="tag mono" data-cursor>Frida</span>
+            <span class="tag mono" data-cursor>apktool</span>
+            <span class="tag mono" data-cursor>jadx</span>
+            <span class="tag mono" data-cursor>Android Studio</span>
+          </div>
+
+          <h3 class="skills-cat reveal">Exploitation &amp; Network</h3>
+          <div class="tag-cloud reveal">
+            <span class="tag mono" data-cursor>Metasploit</span>
+            <span class="tag mono" data-cursor>Wireshark</span>
+            <span class="tag mono" data-cursor>Hydra</span>
+            <span class="tag mono" data-cursor>John the Ripper</span>
+          </div>
+
+          <h3 class="skills-cat reveal">Languages</h3>
+          <div class="tag-cloud reveal">
+            <span class="tag mono" data-cursor>Python</span>
+            <span class="tag mono" data-cursor>Bash</span>
+          </div>
+
+          <h3 class="skills-cat reveal">Platforms, OS &amp; Workflow</h3>
+          <div class="tag-cloud reveal">
+            <span class="tag" data-cursor>Kali Linux</span>
+            <span class="tag" data-cursor>Linux / Unix</span>
+            <span class="tag" data-cursor>Windows</span>
+            <span class="tag" data-cursor>MySQL</span>
+            <span class="tag" data-cursor>Google Cloud</span>
+            <span class="tag" data-cursor>AWS</span>
+            <span class="tag" data-cursor>Jira</span>
+          </div>
+        </div>
+
+        <div class="side-col">
+          <!-- Project -->
+          <article class="project-card reveal" data-cursor>
+            <div class="proj-head">
+              <span class="proj-icon">🧰</span>
+              <span class="proj-date">Nov 2024 — Mar 2025</span>
+            </div>
+            <h3>SecuKit</h3>
+            <p class="proj-sub">Security Toolkit for Researchers</p>
+            <p>A unified GUI that integrates command-line tools — <strong>Nuclei, SQLMap, Nmap, FFUF, Dirbuster</strong> — into one application. Simplifies tool management, streamlines testing workflows, and boosts productivity through automation and real-time assistance.</p>
+            <div class="proj-stack">
+              <span>Python</span><span>GUI</span><span>Automation</span>
+            </div>
+          </article>
+
+          <!-- Certifications -->
+          <article class="certs-card reveal">
+            <h3 class="certs-title">Certifications</h3>
+            <ul class="certs-list">
+              <li data-cursor><span class="cert-name">Certified Penetration Tester (CPT)</span><span class="cert-org">RedTeam Hacker Academy · <em>pursuing</em></span></li>
+              <li data-cursor><span class="cert-name">Ethical Hacking Essentials (EHE)</span><span class="cert-org">EC-Council</span></li>
+              <li data-cursor><span class="cert-name">Android Bug Bounty: Hunt Like a Rat</span><span class="cert-org">EC-Council</span></li>
+              <li data-cursor><span class="cert-name">Google Cybersecurity Professional V2</span><span class="cert-org">Google · Coursera</span></li>
+              <li data-cursor><span class="cert-name">Google Cloud Cybersecurity</span><span class="cert-org">Google Cloud · <em>pursuing</em></span></li>
+              <li data-cursor><span class="cert-name">TechA Network Hacking Prevention</span><span class="cert-org">Infosys Springboard</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-inner reveal">
+        <p class="contact-eyebrow"><span class="prompt">$</span> ./connect.sh</p>
+        <h2 class="contact-title">Let's secure something together.</h2>
+        <p class="contact-desc">Open to offensive security engagements, collaboration, and a good conversation about breaking things responsibly.</p>
+        <div class="contact-btns">
+          <a href="mailto:edwinshaj@gmail.com" class="btn btn-primary" data-cursor>📧 edwinshaj@gmail.com</a>
+          <a href="https://www.linkedin.com/in/edwin-shajan" target="_blank" rel="noopener" class="btn btn-ghost" data-cursor>in / LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Edwin Shajan</span>
+    <span class="footer-mid">Built with curiosity &amp; caffeine.</span>
+    <span class="footer-prompt">root@edwin:~# <span class="logo-blink">_</span></span>
+  </footer>
+
+  <!-- Interactive terminal overlay -->
+  <div class="term-overlay" id="termOverlay" aria-hidden="true">
+
+    <!-- Kali-style boot splash -->
+    <div class="boot-splash" id="bootSplash">
+      <div class="boot-inner">
+        <div class="boot-logo">⚡ OFFSEC<span class="boot-logo-dim">/os</span></div>
+        <div class="boot-tag">edwin_shajan — penetration testing environment</div>
+        <div class="boot-log" id="bootLog"></div>
+        <div class="boot-bar"><span class="boot-prog" id="bootProg"></span></div>
+        <div class="boot-pct"><span id="bootPct">0</span>%</div>
+        <div class="boot-skip">press <kbd>Enter</kbd> or click to skip</div>
+      </div>
+    </div>
+
+    <div class="term-overlay-bar">
+      <span class="to-hint"><span class="prompt">$</span> interactive shell — type <code>help</code> · press <kbd>Esc</kbd> to exit</span>
+      <button class="term-close" id="termClose" data-cursor aria-label="Exit terminal">✕ exit shell</button>
+    </div>
+    <iframe id="termFrame" title="Edwin Shajan — interactive terminal" loading="lazy"></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

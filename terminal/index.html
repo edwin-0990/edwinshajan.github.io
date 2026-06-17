@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>edwin@shajan:~$ — Penetration Tester | Offensive Security</title>
+  <meta name="description" content="Edwin Shajan — Penetration Tester at BCG. Offensive security, NCIIPC Top 15 Security Researcher (India, Q1 2025), 3x CVE author, 300+ vulnerabilities reported. Interactive terminal portfolio." />
+  <meta name="author" content="Edwin Shajan" />
+  <meta property="og:title" content="edwin@shajan:~$ — Penetration Tester" />
+  <meta property="og:description" content="Interactive terminal portfolio. Offensive security professional. NCIIPC Top 15 (India, Q1 2025). 3x CVE author." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90' fill='%23ff2d4f'&gt;%E2%9A%A1&lt;/text&gt;&lt;/svg&gt;" />
+</head>
+<body>
+  <!-- CRT overlays -->
+  <div class="crt-scan" aria-hidden="true"></div>
+  <div class="crt-flicker" aria-hidden="true"></div>
+  <div class="crt-vignette" aria-hidden="true"></div>
+
+  <!-- SEO / no-JS fallback content -->
+  <div class="sr-only">
+    <h1>Edwin Shajan — Penetration Tester at BCG</h1>
+    <p>Offensive security professional. NCIIPC Top 15 Security Researcher in India (Q1 2025). Acknowledged in the U.S. Department of Homeland Security and U.S. Department of the Treasury Vulnerability Disclosure Programs (Hall of Fame). Author of CVE-2025-25381, CVE-2025-25382 and CVE-2025-45777. Reported 300+ vulnerabilities and helped secure 180+ organizations. Skills: penetration testing, web &amp; API security, Android security, Burp Suite, Nmap, Metasploit, SQLMap, Nuclei, FFUF, MobSF, Python. Contact: edwinshaj@gmail.com — linkedin.com/in/edwin-shajan</p>
+  </div>
+
+  <main class="window" id="window">
+    <div class="titlebar">
+      <div class="tb-dots">
+        <span class="tbd red"></span><span class="tbd amber"></span><span class="tbd green"></span>
+      </div>
+      <div class="tb-title">edwin@shajan: ~ — bash — 92×30</div>
+      <div class="tb-status"><span class="conn-dot"></span> secure shell</div>
+    </div>
+
+    <div class="screen" id="screen">
+      <div class="output" id="output"></div>
+
+      <div class="input-line" id="inputLine" hidden>
+        <span class="ps1"><span class="ps-user">edwin</span><span class="ps-at">@</span><span class="ps-host">shajan</span>:<span class="ps-path">~</span><span class="ps-dollar">$</span></span>
+        <span class="cmd-wrap">
+          <input type="text" id="cmd" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="terminal command input" />
+          <span class="typed-mirror" id="mirror"></span><span class="input-caret" id="caret">▋</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="quickbar" id="quickbar" hidden>
+      <span class="qhint">try:</span>
+      <button class="qcmd" data-cmd="help">help</button>
+      <button class="qcmd" data-cmd="about">about</button>
+      <button class="qcmd" data-cmd="experience">experience</button>
+      <button class="qcmd" data-cmd="achievements">achievements</button>
+      <button class="qcmd" data-cmd="skills">skills</button>
+      <button class="qcmd" data-cmd="projects">projects</button>
+      <button class="qcmd" data-cmd="contact">contact</button>
+      <button class="qcmd" data-cmd="clear">clear</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
